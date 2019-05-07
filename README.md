@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is example of using  Yandex Maps layoutFactory with React:
+https://github.com/gribnoysup/react-yandex-maps/issues/150
+https://github.com/gribnoysup/react-yandex-maps/issues/130
+https://github.com/gribnoysup/react-yandex-maps/issues/27
+
 ## Available Scripts
 
 In the project directory, you can run:
