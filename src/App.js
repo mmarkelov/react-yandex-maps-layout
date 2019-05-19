@@ -83,8 +83,16 @@ const App = () => {
   return (
     <div className="App">
       <div>Test</div>
-      <YMaps query={{ lang: 'ru_RU', load: 'package.full' }}>
-        <Map onLoad={ymaps => setYmaps(ymaps)} defaultState={mapState}>
+      <YMaps query={{ lang: 'ru_RU' }}>
+        <Map
+          onLoad={ymaps => setYmaps(ymaps)}
+          defaultState={mapState}
+          modules={[
+            'templateLayoutFactory',
+            'geoObject.addon.balloon',
+            'clusterer.addon.balloon',
+          ]}
+        >
           <Clusterer
             options={{
               preset: 'islands#invertedVioletClusterIcons',
